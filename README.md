@@ -16,4 +16,4 @@ Supported Variants
     Xiaomi 11i / 11i HyperCharge
     Redmi Note 11 Pro/Pro+ 5G
 
-Kernel/blobs - Extracted from OS1.0.24.0
+Kernel/blobs - Extracted from OS1.0.24.0 TKTCNXM
