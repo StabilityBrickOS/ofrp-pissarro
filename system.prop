@@ -13,3 +13,19 @@ ro.hardware.gatekeeper=beanpod
 
 # Kmsetkey
 ro.hardware.kmsetkey=beanpod
+
+# Platform
+ro.display.series=Redmi Note 11 Pro+
+ro.board.platform=pissarro
+
+# Virtual A/B
+ro.virtual_ab.enabled=true
+
+# Dynamic Partitions
+ro.boot.dynamic_partitions=true
+
+# Charger suspend 
+ro.charger.enable_suspend=1
+
+# ADB
+ro.adb.secure=0
