@@ -162,3 +162,8 @@ TW_MAX_BRIGHTNESS := 2047
 TW_DEFAULT_BRIGHTNESS := 1200
 TW_NO_FASTBOOT_BOOT := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+
+# Flashlight
+OF_FLASHLIGHT_ENABLE := 1
+OF_FL_PATH1 := "/sys/class/leds/torch-light0/brightness"
+OF_FL_PATH2 := "/sys/class/leds/torch-light1/brightness"
