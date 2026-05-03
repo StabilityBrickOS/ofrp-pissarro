@@ -105,6 +105,9 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
             export OF_MAINTAINER="Stability BrickOS" 
             export FOX_VERSION=R12.1
 
+        # Magisk
+            export FOX_USE_SPECIFIC_MAGISK_ZIP=~/Magisk/Magisk-v30.6.zip
+
     # run a process after formatting data to work-around MTP issues
     # export OF_RUN_POST_FORMAT_PROCESS="1"   disabling this since it causes issues with a12 decryption
 
