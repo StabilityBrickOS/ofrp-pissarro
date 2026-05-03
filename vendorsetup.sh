@@ -101,9 +101,9 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
               export OF_NO_SPLASH_CHANGE=1
 
         #Maintainer Stuff
-        	export FOX_BUILD_TYPE="Beta"
-            export OF_MAINTAINER="Samrth Singh" 
-            export FOX_VERSION=R11.1
+        	export FOX_BUILD_TYPE="Stable"
+            export OF_MAINTAINER="Stability BrickOS" 
+            export FOX_VERSION=R12.1
 
     # run a process after formatting data to work-around MTP issues
     # export OF_RUN_POST_FORMAT_PROCESS="1"   disabling this since it causes issues with a12 decryption
